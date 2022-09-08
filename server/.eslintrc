@@ -15,5 +15,11 @@
         "semi": ["error", "always"],
         "@typescript-eslint/no-explicit-any": ["error", {  "fixToUnknown": true}],
         "curly": "error"
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true,
+      "amd": true
     }
   }
